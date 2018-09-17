@@ -29,9 +29,8 @@ reboot
 
 3. Audio configuration
 
-```
 
-  3.4. USB MIC AND AUDIO JACK users,  
+  USB MIC AND AUDIO JACK users,  
   ```  
   sudo chmod +x /home/pi/GassistPi/audio-drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh  
   
