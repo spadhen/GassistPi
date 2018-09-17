@@ -29,7 +29,6 @@ reboot
 
 3. Audio configuration
 
-```
 
   3.4. USB MIC AND AUDIO JACK users,  
   ```  
