@@ -63,7 +63,7 @@ speaker-test -t wav
 	
 	```
 *************************************************  
- **HEADLESS AUTOSTART on BOOT SERVICE SETUP**  
+ **HEADLESS AUTOSTART**  
 *************************************************  
 1. Open the service files in the /home/pi/GassistPi/systemd/ directory and add your project and model ids in the indicated places and save the file.
 
