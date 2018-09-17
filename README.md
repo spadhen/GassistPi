@@ -2,7 +2,7 @@
 
 # Google Assistant for Raspberry Pi Boards  
 
-# Updated At 17-Sep-2018
+# Updated At 17-Sep-2018   Reference of Sid E Classroom
 
 
 FIRST STEP- CLONE the PROJECT on to Pi
