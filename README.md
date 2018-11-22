@@ -55,6 +55,11 @@ speaker-test -t wav
 
 	```
 	sudo chmod +x /home/pi/GassistPi/scripts/gassist-installer-pi3.sh
+	
+	```
+	Or if you are using raspberry pi Zero
+	```
+	sudo chmod +x /home/pi/GassistPi/scripts/gassist-installer-pi-zero.sh
 
 	```
 7. Execute the installers (When Prompted, enter your Google Cloud console Project-Id, A name for your Assistant and the Full Name of your credentials file, including the json extension.)  
@@ -62,8 +67,13 @@ speaker-test -t wav
 	sudo  /home/pi/GassistPi/scripts/gassist-installer-pi3.sh  
 	
 	```
+	Or if you are using raspberry pi Zero
+	```
+	sudo  /home/pi/GassistPi/scripts/gassist-installer-pi-zero.sh  
+
+	```
 *************************************************  
- **HEADLESS AUTOSTARTP**  
+ **HEADLESS AUTOSTART**  
 *************************************************  
 1. Open the service files in the /home/pi/GassistPi/systemd/ directory and add your project and model ids in the indicated places and save the file.
 
