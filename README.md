@@ -45,8 +45,7 @@ reboot
   sudo ./GassistPi/audio-drivers/USB-MIC-HDMI/scripts/configure.sh  
   
   sudo reboot  
-  
-  cd /home/${USER}/  
+    
   
   sudo chmod +x ./GassistPi/audio-drivers/USB-MIC-HDMI/scripts/install-usb-mic-hdmi.sh  
   sudo ./GassistPi/audio-drivers/USB-MIC-HDMI/scripts/install-usb-mic-hdmi.sh  
