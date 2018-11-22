@@ -30,11 +30,26 @@ reboot
 3. Audio configuration
 
 
-  USB MIC AND AUDIO JACK users,  
+  USB MIC AND AUDIO JACK users  
   ```  
   sudo chmod +x /home/pi/GassistPi/audio-drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh  
   
   sudo /home/pi/GassistPi/audio-drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh  
+  
+  speaker-test  
+  ```
+  
+  USB MIC AND HDMI users  
+  ```  
+  sudo chmod +x ./GassistPi/audio-drivers/USB-MIC-HDMI/scripts/configure.sh  
+  sudo ./GassistPi/audio-drivers/USB-MIC-HDMI/scripts/configure.sh  
+  
+  sudo reboot  
+  
+  cd /home/${USER}/  
+  
+  sudo chmod +x ./GassistPi/audio-drivers/USB-MIC-HDMI/scripts/install-usb-mic-hdmi.sh  
+  sudo ./GassistPi/audio-drivers/USB-MIC-HDMI/scripts/install-usb-mic-hdmi.sh  
   
   speaker-test  
   ```
