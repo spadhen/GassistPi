@@ -116,3 +116,8 @@ sudo systemctl start gassistpi-push-button.service
 ```  
 
 **RESTART and ENJOY**  
+
+Tip: To Run any appliction on Auto start on boot of raspberry Pi 
+Just Open file:
+$ sudo nano /etc/profile
+and at the end add you command line than save and exit and restart your pi
